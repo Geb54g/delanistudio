@@ -19,3 +19,8 @@ header {
   text-align: center;
   padding-top: 5rem;
 }
+.about {
+  text-align: center;
+  line-height: 2rem;
+  padding-top: 1rem;
+}
