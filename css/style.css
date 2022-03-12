@@ -9,3 +9,13 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.image {
+  text-align: center;
+  line-height: 3rem;
+  padding-top: 7rem;
+  color: white;
+}
+.mouse {
+  text-align: center;
+  padding-top: 5rem;
+}
