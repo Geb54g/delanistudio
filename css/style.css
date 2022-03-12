@@ -5,7 +5,7 @@
 }
 header {
   background-image: url(../images/h_img.jpg);
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -23,4 +23,16 @@ header {
   text-align: center;
   line-height: 2rem;
   padding-top: 1rem;
+}
+.two {
+  background-image: url(../images/s_image.jpg);
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service {
+  text-align: center;
+  color: white;
+  padding-top: 1.2rem;
+  line-height: 2rem;
 }
