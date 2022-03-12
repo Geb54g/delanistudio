@@ -2,10 +2,14 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  justify-content: center;
+}
+body {
+  font-family: "Roboto", sans-serif;
 }
 header {
   background-image: url(../images/h_img.jpg);
-  height: 80vh;
+  height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -23,6 +27,20 @@ header {
   text-align: center;
   line-height: 2rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+h2 {
+  font-weight: 600;
+}
+h4 {
+  font-weight: 500;
+}
+h3 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+p1 {
+  font-weight: 400;
 }
 .two {
   background-image: url(../images/s_image.jpg);
@@ -33,6 +51,28 @@ header {
 .service {
   text-align: center;
   color: white;
-  padding-top: 1.2rem;
+  padding-top: 2.2rem;
   line-height: 2rem;
+}
+.action {
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.activity {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+}
+.design {
+  text-align: center;
+  width: 60%;
+}
+.development {
+  text-align: center;
+  width: 60%;
+}
+.product {
+  text-align: center;
+  width: 50%;
 }
