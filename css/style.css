@@ -9,7 +9,7 @@ body {
 }
 header {
   background-image: url(../images/h_img.jpg);
-  height: 90vh;
+  height: 80vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -101,6 +101,7 @@ p1 {
 }
 .form {
   text-align: center;
+  padding-top: 1rem;
 }
 .social-media {
   margin: 1rem;
@@ -108,4 +109,41 @@ p1 {
 }
 .foot-sub {
   text-align: center;
+}
+#name {
+  width: 30%;
+  background-color: transparent;
+  border: solid white;
+  color: white;
+}
+#email {
+  width: 30%;
+  background-color: transparent;
+  border: solid white;
+}
+#area {
+  width: 60%;
+  margin-top: 0.5rem;
+  border: solid white;
+  background-color: transparent;
+  color: white;
+}
+.btn {
+  width: 10%;
+  border-radius: 1em;
+  opacity: 0.5;
+  color: black;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: rgba(20, 22, 168, 0.575);
+}
+p2 {
+  font-weight: 500;
+}
+p3 {
+  font-weight: 500;
+}
+p4 {
+  font-weight: 500;
 }
