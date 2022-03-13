@@ -26,15 +26,15 @@ header {
 .about {
   text-align: center;
   line-height: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 h2 {
   font-weight: 600;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
 }
+
 h4 {
   font-weight: bold;
 }
@@ -146,4 +146,27 @@ p3 {
 }
 p4 {
   font-weight: 500;
+}
+.photo {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.pc-one {
+  position: relative;
+  width: 50%;
+}
+.photo2 {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  text-align: center;
+  opacity: 0.1;
+}
+.photo:hover {
+  opacity: 0.1;
+}
+.h5 {
+  color: black;
+  font-weight: bold;
 }

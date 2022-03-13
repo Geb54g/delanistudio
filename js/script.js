@@ -1,15 +1,15 @@
 $(document).ready(function(){
-    $("#but").click(function(){
+    $("#but").hover(function(){
         $("p2").toggle();
     });
 });
 $(document).ready(function(){
-    $("#but2").click(function(){
+    $("#but2").hover(function(){
         $("p3").toggle();
     });
 });
 $(document).ready(function(){
-    $("#but3").click(function(){
+    $("#but3").hover(function(){
         $("p4").toggle();
     });
 });
